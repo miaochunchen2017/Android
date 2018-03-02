@@ -1,5 +1,6 @@
 package com.example.administrator.login;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,9 +20,12 @@ public class MainActivity extends AppCompatActivity {
         btn_signIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "U click the button", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, SignInActivity.class);
+                //启动
+                startActivity(intent);
             }
         });
 
     }
+
 }
