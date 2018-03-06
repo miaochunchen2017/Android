@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign In"
-        android:id="@+id/text_signIn"
+        android:id="@+id/text_main"
         android:textSize="20pt" />
 
 
@@ -21,9 +21,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="UserName"
-        android:id="@+id/text_signIn_userName"
+        android:id="@+id/text_signUp_userName"
         android:textSize="10pt"
-        android:layout_below="@+id/text_signIn"
+        android:layout_below="@+id/text_main"
         android:layout_marginTop="30dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -35,18 +35,18 @@
         android:ems="10"
         android:id="@+id/input_userName"
         android:hint="UserName"
-        android:layout_alignBaseline="@+id/text_signIn_userName"
-        android:layout_alignBottom="@+id/text_signIn_userName"
-        android:layout_toRightOf="@+id/text_signIn"
-        android:layout_toEndOf="@+id/text_signIn" />
+        android:layout_alignBaseline="@+id/text_signUp_userName"
+        android:layout_alignBottom="@+id/text_signUp_userName"
+        android:layout_toRightOf="@+id/text_main"
+        android:layout_toEndOf="@+id/text_main" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Password"
-        android:id="@+id/text_signIn_password"
+        android:id="@+id/text_signUp_password"
         android:textSize="10pt"
-        android:layout_below="@+id/text_signIn_userName"
+        android:layout_below="@+id/text_signUp_userName"
         android:layout_marginTop="20dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -58,18 +58,18 @@
         android:ems="10"
         android:id="@+id/input_password"
         android:hint="Password"
-        android:layout_alignBaseline="@+id/text_signIn_password"
-        android:layout_alignBottom="@+id/text_signIn_password"
-        android:layout_toRightOf="@+id/text_signIn"
-        android:layout_toEndOf="@+id/text_signIn" />
+        android:layout_alignBaseline="@+id/text_signUp_password"
+        android:layout_alignBottom="@+id/text_signUp_password"
+        android:layout_toRightOf="@+id/text_main"
+        android:layout_toEndOf="@+id/text_main" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Confirm"
-        android:id="@+id/text_signIn_confirm"
+        android:id="@+id/text_signUp_confirm"
         android:textSize="10pt"
-        android:layout_below="@+id/text_signIn_password"
+        android:layout_below="@+id/text_signUp_password"
         android:layout_marginTop="20dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -81,18 +81,18 @@
         android:ems="10"
         android:id="@+id/input_confirm"
         android:hint="Confirm Your Password"
-        android:layout_alignBaseline="@+id/text_signIn_confirm"
-        android:layout_alignBottom="@+id/text_signIn_confirm"
-        android:layout_toRightOf="@+id/text_signIn"
-        android:layout_toEndOf="@+id/text_signIn" />
+        android:layout_alignBaseline="@+id/text_signUp_confirm"
+        android:layout_alignBottom="@+id/text_signUp_confirm"
+        android:layout_toRightOf="@+id/text_main"
+        android:layout_toEndOf="@+id/text_main" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Emile"
-        android:id="@+id/text_signIn_emile"
+        android:id="@+id/text_signUp_emile"
         android:textSize="10pt"
-        android:layout_below="@+id/text_signIn_confirm"
+        android:layout_below="@+id/text_signUp_confirm"
         android:layout_marginTop="20dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -104,18 +104,18 @@
         android:ems="10"
         android:id="@+id/input_emile"
         android:hint="\@\Emile"
-        android:layout_alignBaseline="@+id/text_signIn_emile"
-        android:layout_alignBottom="@+id/text_signIn_emile"
-        android:layout_toRightOf="@+id/text_signIn"
-        android:layout_toEndOf="@+id/text_signIn" />
+        android:layout_alignBaseline="@+id/text_signUp_emile"
+        android:layout_alignBottom="@+id/text_signUp_emile"
+        android:layout_toRightOf="@+id/text_main"
+        android:layout_toEndOf="@+id/text_main" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Telephone"
-        android:id="@+id/text_signIn_tel"
+        android:id="@+id/text_signUp_tel"
         android:textSize="10pt"
-        android:layout_below="@+id/text_signIn_emile"
+        android:layout_below="@+id/text_signUp_emile"
         android:layout_marginTop="20dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -127,20 +127,31 @@
         android:ems="10"
         android:id="@+id/input_tel"
         android:hint="\@\Emile"
-        android:layout_alignBaseline="@+id/text_signIn_tel"
-        android:layout_alignBottom="@+id/text_signIn_tel"
-        android:layout_toRightOf="@+id/text_signIn"
-        android:layout_toEndOf="@+id/text_signIn" />
+        android:layout_alignBaseline="@+id/text_signUp_tel"
+        android:layout_alignBottom="@+id/text_signUp_tel"
+        android:layout_toRightOf="@+id/text_main"
+        android:layout_toEndOf="@+id/text_main" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
-        android:id="@+id/btn_signIn_submit"
+        android:id="@+id/btn_signUp_submit"
         android:layout_marginTop="63dp"
         android:layout_below="@+id/input_tel"
-        android:layout_alignLeft="@+id/input_tel"
-        android:layout_alignStart="@+id/input_tel" />
+        android:layout_toRightOf="@+id/text_signUp_emile"
+        android:layout_toEndOf="@+id/text_signUp_emile" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:id="@+id/btn_signUp_backToMain"
+        android:layout_alignTop="@+id/btn_signUp_submit"
+        android:layout_alignRight="@+id/input_tel"
+        android:layout_alignEnd="@+id/input_tel"
+        android:layout_marginRight="47dp"
+        android:layout_marginEnd="47dp" />
 
 
 </RelativeLayout>
